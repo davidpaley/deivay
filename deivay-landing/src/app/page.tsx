@@ -1,6 +1,6 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
+import Head from "next/head";
 import {
  Code,
  Smartphone,
@@ -310,7 +310,7 @@ const Portfolio = () => {
          <div className="max-w-xl">
            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Featured Projects</h2>
            <p className="text-slate-600">
-             A glimpse into the innovative solutions we've delivered for our partners across various industries.
+             A selection of companies we’ve partnered with across different industries.
            </p>
          </div>
          {/* CTA "Start a Project" ahora va a #contact (Let's Connect) */}
@@ -445,15 +445,15 @@ const HomePage = () => {
  }, []);
 
  return (
-   <div className="font-sans antialiased text-slate-800 selection:bg-indigo-100 selection:text-indigo-700">
-     <Navbar isScrolled={isScrolled} />
-     <Hero />
-     <Services />
-     <About />
-     <Portfolio />
-     <Contact />
-     <Footer />
-   </div>
+  <div className="font-sans antialiased text-slate-800 selection:bg-indigo-100 selection:text-indigo-700">
+    <Navbar isScrolled={isScrolled} />
+    <Hero />
+    <Services />
+    <About />
+    <Portfolio />
+    <Contact />
+    <Footer />
+  </div>
  );
 };
 
