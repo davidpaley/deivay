@@ -128,7 +128,7 @@ const Hero = () => {
            🚀 Elevating Business Through Technology
          </div>
          <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 leading-tight mb-6 tracking-tight">
-           Building the Future of <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-500">Software</span>
+           Building the Future of <span className="bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-500 text-indigo-600">Software</span>
          </h1>
          <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
            Deivay specializes in delivering high-performance software solutions tailored to your unique business needs. From scalable web apps to complex cloud architectures.
