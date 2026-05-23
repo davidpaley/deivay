@@ -284,7 +284,7 @@ const Portfolio = () => {
      title: 'ClassWallet',
      category: 'Fintech & EdTech Platform',
      image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-     description: 'Helping a leading digital wallet solution for public funds, enabling K-12 and state agencies to track spending and automate reimbursements.',
+     description: 'Providing software development services for a digital wallet platform supporting public funds workflows, including spend tracking and reimbursement processes.',
      link: 'https://classwallet.com/' // Added link
    },
    {
