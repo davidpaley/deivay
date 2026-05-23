@@ -27,7 +27,6 @@ const smoothScroll = (event, targetId) => {
    const elementRect = targetElement.getBoundingClientRect().top;
    const elementPosition = elementRect - bodyRect;
    const targetPosition = elementPosition - offset;
-
    window.scrollTo({
      top: targetPosition,
      behavior: 'smooth'
